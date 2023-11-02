@@ -1805,10 +1805,6 @@ body::after {
     padding-top: 3.125rem;
   }
 
-  .information__bottom {
-    padding-bottom: 3.125rem;
-  }
-
   .spollers__list {
     -webkit-column-gap: 0.9375rem;
        -moz-column-gap: 0.9375rem;
@@ -2155,10 +2151,6 @@ body::after {
 
   .information__bottom {
     padding-top: 1.875rem;
-  }
-
-  .information__bottom {
-    padding-bottom: 1.875rem;
   }
 
   .spollers__list {
@@ -3518,18 +3510,6 @@ body::after {
 @supports not (padding-top: clamp( 1.875rem , 1.4044117647rem  +  2.3529411765vw , 3.125rem )) {
     .information__bottom {
       padding-top: calc(1.875rem + 1.25 * (100vw - 20rem) / 53.125);
-    }
-}
-
-@supports (padding-bottom: clamp( 1.875rem , 1.4044117647rem  +  2.3529411765vw , 3.125rem )) {
-    .information__bottom {
-      padding-bottom: clamp( 1.875rem , 1.4044117647rem  +  2.3529411765vw , 3.125rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 1.875rem , 1.4044117647rem  +  2.3529411765vw , 3.125rem )) {
-    .information__bottom {
-      padding-bottom: calc(1.875rem + 1.25 * (100vw - 20rem) / 53.125);
     }
 }
 
